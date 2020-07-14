@@ -34,7 +34,7 @@ export default function Header() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             </IconButton>
           <Typography variant="h6"   className={classes.title}>
-            <Link className={classes.linkbtn} to='/'>Home</Link>{" "}
+            <Link className={classes.linkbtn} style={{ textDecoration: 'none' }} to='/'>Home</Link>{" "}
             <Link className={classes.linkbtn} style={{ textDecoration: 'none' }} to='/product'>Product</Link>
           </Typography>
           <ShoppingCartIcon fontSize='large'/>
